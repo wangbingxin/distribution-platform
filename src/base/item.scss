@@ -1,0 +1,135 @@
+@import './variable.scss';
+html{
+  background-color: #F5F6F7;
+}
+.single-line{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.5em;
+}
+
+
+[lazy="loaded"]{
+  animation: fadein 1s;
+}
+@keyframes fadein {
+  0%{opacity: 0}
+  100%{opacity: 1}
+}
+@keyframes fadeout {
+  0%{opacity: 1}
+  100%{opacity: 0}
+}
+
+.fade-enter-active {
+  animation: fadein .5s;
+}
+
+.fade-leave-active {
+  animation: fadeout .5s;
+}
+
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+.title{
+  font-size: 16px;
+  background-color: #f7f7f7;
+  @extend .view-section-spacing;
+}
+
+.title:before{
+  content: '';
+  background-color: $blue1;
+  display: inline-block;
+  width: .2em;
+  height: 1em;
+  border-radius: .1em;
+  vertical-align: -0.1em;
+  margin-right: 1em;
+}
+
+.view-section{
+  padding: 26px;  
+}
+
+.view-section-spacing{
+  border-bottom: 26px #f7f7f7 solid;    
+}
+
+.search-bar{
+  margin-bottom: 26px;
+}
+
+
+
+.blue{
+  color: $blue1;
+}
+
+.red{
+  color: $red;  
+}
+.x-table{
+  background-color: #fff;
+  table,th,td{
+    border: none;
+  }
+  th:not(:last-child),td:not(:last-child){
+    border-right:6px solid #fff;
+  }
+  th,td{
+    height: 50px;
+  }
+  thead tr {
+    background-color: #f7f7f7;
+  }
+  tbody tr{
+    &.even{
+      background-color: #f7f7f7;
+    }
+    &.odd{
+      background-color: #fff;
+    }
+    td{
+      color:#999;
+    }
+  }
+}
+
+.pagination {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px 26px;
+  .el-pagination {
+    float: right;
+  }
+}
+
+i.sort{
+  background: url(../assets/sort.png) center / auto 100% no-repeat ;
+  display: inline-block;
+  @extend .icon;
+}
+
+.rotate{
+  transform: rotate(180deg)
+}
+
+.pointer-box{
+  cursor: pointer
+}
+
+
+
+//重新一些ui库样式
+.el-dialog__header {
+  text-align: center;
+  border-bottom: 1px solid #f7f7f7;
+  padding-bottom: 20px;   
+}

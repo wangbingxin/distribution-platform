@@ -1,0 +1,52 @@
+@import "variable";
+
+@mixin ring($rate: 0.4,$dis: 1){
+    color: $blue;
+    &:after,&:before{
+    content: '';
+    box-sizing:border-box;
+    display: inline-block;
+    background-color: $blue;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    transform: scale($rate);
+    margin: 0 $dis+em;
+    vertical-align: -.2em;
+  }
+}
+
+@mixin multiLine($line){
+  -webkit-line-clamp: $line;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@mixin radius($radius:.06rem){
+  border-radius: $radius;
+}
+@mixin padding{
+  padding-left: .24rem;
+  padding-right: .24rem;
+}
+@mixin margin{
+  margin-left: .24rem;
+  margin-right: .24rem;
+}
+
+@mixin flex($direction:row,$space:space-between){
+  display: flex;
+  align-items: center;
+  flex-direction: $direction;
+  justify-content: $space;
+}
+
+@mixin shadow{
+  box-shadow: 0 0 .16rem rgba(0, 0, 0, .08);
+}
+
+@mixin text-center($height,$size: false){
+  @if $height { line-height: $height; }
+  @if $size { font-size: $size; }
+  text-align: center;
+}

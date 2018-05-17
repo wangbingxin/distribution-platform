@@ -1,0 +1,290 @@
+{
+  "today": {
+    "user": 130,
+    "subscribe": 55,
+    "recharge": 17
+  },
+  "yesterday": {
+    "user": 366,
+    "subscribe": 148,
+    "recharge": 55
+  },
+  "month": {
+    "user": 3441,
+    "subscribe": 1704,
+    "recharge": 477
+  },
+  "total": {
+    "user": 8267,
+    "subscribe": 3962,
+    "recharge": 1005
+  },
+  "column": [
+    {
+      "label": "时间",
+      "prop": "time"
+    },
+    {
+      "label": "新增用户",
+      "prop": "user"
+    },
+    {
+      "label": "新用户关注",
+      "prop": "subscribe"
+    },
+    {
+      "label": "新用户关注率",
+      "prop": "subscribePer"
+    },
+    {
+      "label": "已付费",
+      "prop": "recharge"
+    },
+    {
+      "label": "新用户付费率",
+      "prop": "rechargePer"
+    }
+  ],
+  "detail": [
+    {
+      "user": 489,
+      "subscribe": 255,
+      "recharge": 59,
+      "time": "2017/9/14",
+      "rechargePer": "12.06%",
+      "subscribePer": "52.14%"
+    },
+    {
+      "user": 201,
+      "subscribe": 98,
+      "recharge": 11,
+      "time": "2017/9/15",
+      "rechargePer": "5.47%",
+      "subscribePer": "48.75%"
+    },
+    {
+      "user": 187,
+      "subscribe": 97,
+      "recharge": 13,
+      "time": "2017/9/16",
+      "rechargePer": "6.95%",
+      "subscribePer": "51.87%"
+    },
+    {
+      "user": 499,
+      "subscribe": 180,
+      "recharge": 64,
+      "time": "2017/9/17",
+      "rechargePer": "12.82%",
+      "subscribePer": "36.07%"
+    },
+    {
+      "user": 459,
+      "subscribe": 186,
+      "recharge": 39,
+      "time": "2017/9/18",
+      "rechargePer": "8.49%",
+      "subscribePer": "40.52%"
+    },
+    {
+      "user": 274,
+      "subscribe": 189,
+      "recharge": 63,
+      "time": "2017/9/19",
+      "rechargePer": "22.99%",
+      "subscribePer": "68.97%"
+    },
+    {
+      "user": 116,
+      "subscribe": 50,
+      "recharge": 12,
+      "time": "2017/9/20",
+      "rechargePer": "10.34%",
+      "subscribePer": "43.1%"
+    },
+    {
+      "user": 132,
+      "subscribe": 45,
+      "recharge": 9,
+      "time": "2017/9/21",
+      "rechargePer": "6.81%",
+      "subscribePer": "34.09%"
+    },
+    {
+      "user": 191,
+      "subscribe": 77,
+      "recharge": 10,
+      "time": "2017/9/22",
+      "rechargePer": "5.23%",
+      "subscribePer": "40.31%"
+    },
+    {
+      "user": 494,
+      "subscribe": 152,
+      "recharge": 28,
+      "time": "2017/9/23",
+      "rechargePer": "5.66%",
+      "subscribePer": "30.76%"
+    },
+    {
+      "user": 231,
+      "subscribe": 151,
+      "recharge": 41,
+      "time": "2017/9/24",
+      "rechargePer": "17.74%",
+      "subscribePer": "65.36%"
+    },
+    {
+      "user": 303,
+      "subscribe": 115,
+      "recharge": 43,
+      "time": "2017/9/25",
+      "rechargePer": "14.19%",
+      "subscribePer": "37.95%"
+    },
+    {
+      "user": 201,
+      "subscribe": 102,
+      "recharge": 18,
+      "time": "2017/9/26",
+      "rechargePer": "8.95%",
+      "subscribePer": "50.74%"
+    },
+    {
+      "user": 172,
+      "subscribe": 109,
+      "recharge": 27,
+      "time": "2017/9/27",
+      "rechargePer": "15.69%",
+      "subscribePer": "63.37%"
+    },
+    {
+      "user": 358,
+      "subscribe": 131,
+      "recharge": 14,
+      "time": "2017/9/28",
+      "rechargePer": "3.91%",
+      "subscribePer": "36.59%"
+    },
+    {
+      "user": 112,
+      "subscribe": 72,
+      "recharge": 12,
+      "time": "2017/9/29",
+      "rechargePer": "10.71%",
+      "subscribePer": "64.28%"
+    },
+    {
+      "user": 407,
+      "subscribe": 249,
+      "recharge": 65,
+      "time": "2017/9/30",
+      "rechargePer": "15.97%",
+      "subscribePer": "61.17%"
+    },
+    {
+      "user": 438,
+      "subscribe": 138,
+      "recharge": 47,
+      "time": "2017/10/1",
+      "rechargePer": "10.73%",
+      "subscribePer": "31.5%"
+    },
+    {
+      "user": 255,
+      "subscribe": 172,
+      "recharge": 48,
+      "time": "2017/10/2",
+      "rechargePer": "18.82%",
+      "subscribePer": "67.45%"
+    },
+    {
+      "user": 189,
+      "subscribe": 108,
+      "recharge": 31,
+      "time": "2017/10/3",
+      "rechargePer": "16.4%",
+      "subscribePer": "57.14%"
+    },
+    {
+      "user": 371,
+      "subscribe": 117,
+      "recharge": 35,
+      "time": "2017/10/4",
+      "rechargePer": "9.43%",
+      "subscribePer": "31.53%"
+    },
+    {
+      "user": 304,
+      "subscribe": 221,
+      "recharge": 82,
+      "time": "2017/10/5",
+      "rechargePer": "26.97%",
+      "subscribePer": "72.69%"
+    },
+    {
+      "user": 168,
+      "subscribe": 76,
+      "recharge": 24,
+      "time": "2017/10/6",
+      "rechargePer": "14.28%",
+      "subscribePer": "45.23%"
+    },
+    {
+      "user": 159,
+      "subscribe": 79,
+      "recharge": 11,
+      "time": "2017/10/7",
+      "rechargePer": "6.91%",
+      "subscribePer": "49.68%"
+    },
+    {
+      "user": 356,
+      "subscribe": 114,
+      "recharge": 28,
+      "time": "2017/10/8",
+      "rechargePer": "7.86%",
+      "subscribePer": "32.02%"
+    },
+    {
+      "user": 107,
+      "subscribe": 81,
+      "recharge": 21,
+      "time": "2017/10/9",
+      "rechargePer": "19.62%",
+      "subscribePer": "75.7%"
+    },
+    {
+      "user": 243,
+      "subscribe": 136,
+      "recharge": 23,
+      "time": "2017/10/10",
+      "rechargePer": "9.46%",
+      "subscribePer": "55.96%"
+    },
+    {
+      "user": 355,
+      "subscribe": 259,
+      "recharge": 55,
+      "time": "2017/10/11",
+      "rechargePer": "15.49%",
+      "subscribePer": "72.95%"
+    },
+    {
+      "user": 366,
+      "subscribe": 148,
+      "recharge": 55,
+      "time": "2017/10/12",
+      "rechargePer": "15.02%",
+      "subscribePer": "40.43%"
+    },
+    {
+      "user": 130,
+      "subscribe": 55,
+      "recharge": 17,
+      "time": "2017/10/13",
+      "rechargePer": "13.07%",
+      "subscribePer": "42.3%"
+    }
+  ]
+}

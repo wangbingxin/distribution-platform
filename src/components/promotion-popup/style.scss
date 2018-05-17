@@ -1,0 +1,53 @@
+@import '../../base/mixin.scss';
+ 
+
+.dialog-popup-page,.dialog-popup-promotion{
+  width: 600px;
+  .label {
+    width: 180px;
+    display: inline-block;
+    line-height: 36px;
+  }
+  
+  .info {
+    width: calc(100% - 200px);
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+  }
+  
+  .row {
+    margin: 20px 0;
+  }
+  .row:first-child{
+    margin-top: 0;
+  }
+
+  .el-radio{
+    margin-right: 60px;
+  }
+  .bottom {
+    @include flex($space: space-around);
+    .el-button {
+      width: 140px;
+      padding: 8px 15px;
+      &.conform {
+        background-color: $blue1;
+        border-color: $blue1;
+      }
+      &.cancel {
+        background-color: #f7f7f7;
+        border-color: #f7f7f7;
+        color: #666;
+      }
+    }
+  }
+}
+
+
+.dialog-popup-page{
+  height: 400px;  
+  .row {
+    margin: 40px 0;
+  }
+}
